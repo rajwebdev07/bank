@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,49 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+
+# Project Detai Description
+
+ 
+## Project Installation
+
+Download/Clone the repo, and get inside the main folder and run below command
+### `npm install`
+
+This will install all dependency
+
+### `npm start`
+
+This will run the project in localhost
+
+
+## Project Code Detail
+
+We have created 3 folder as below:
+1. components -- It inlude all reusable components 
+    a. CustiomPagination - This is resuable component that is taking care of pagination, we are using twice on account list page
+    b. Filter - This is resuable component that is taking care of left section filteration on accoun detail page
+    c. List - This is List component which is taking care of table of bank transation, It is also reusable code
+2. page -- It include 3 page (routes)
+    a. AccountList - This is the index page, where you see all the list of transaction and in left side you will see filter
+    b. AccountDetail - This is component which show the detail of one account
+    c. NoPage - This is 404 page.
+3. context -- this folder contain global states for entire project
+    a. AccountContext - Declaring the context Api
+    b. AccountState  - Create Global state, making the api call and declare state and methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+

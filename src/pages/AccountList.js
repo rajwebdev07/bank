@@ -100,6 +100,32 @@ function AccountList(props) {
         type:'checkbox',
         name:'accountType',
         key:'Credit Card Account'
+    },{
+        label:'Investment Account',
+        type:'checkbox',
+        name:'accountType',
+        key:'Investment Account'
+    },{
+        label:'Checking Account',
+        type:'checkbox',
+        name:'accountType',
+        key:'Checking Account'
+    },
+    {
+        label:'Personal Loan Account',
+        type:'checkbox',
+        name:'accountType',
+        key:'Personal Loan Account'
+    },{
+        label:'Money Market Account',
+        type:'checkbox',
+        name:'accountType',
+        key:'Money Market Account'
+    },{
+        label:'Home Loan Account',
+        type:'checkbox',
+        name:'accountType',
+        key:'Home Loan Account'
     }];
 
     const transactionTypeFilter = [{
